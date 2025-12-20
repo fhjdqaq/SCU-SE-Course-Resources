@@ -6,7 +6,7 @@
     <img src="./assets/image/cover.png" width="100%"> 
 </div>
 
-![License](https://img.shields.io/badge/license-CC--BY--NC--SA%204.0-green.svg) ![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg) ![SCU-SE](https://img.shields.io/badge/SCU-Software%20Engineering-blue.svg) ![GitHub stars](https://img.shields.io/github/stars/Gother-GZ/SCU-SE-Course-Resources.svg?style=flat&logo=github) ![GitHub forks](https://img.shields.io/github/forks/Gother-GZ/SCU-SE-Course-Resources.svg?style=flat&logo=github) ![GitHub repo size](https://img.shields.io/github/repo-size/Gother-GZ/SCU-SE-Course-Resources.svg?style=flat) ![GitHub last commit](https://img.shields.io/github/last-commit/Gother-GZ/SCU-SE-Course-Resources.svg?style=flat)
+![GitHub repo size](https://img.shields.io/github/repo-size/Gother-GZ/SCU-SE-Course-Resources.svg?style=flat) ![GitHub stars](https://img.shields.io/github/stars/Gother-GZ/SCU-SE-Course-Resources.svg?style=flat&logo=github) ![GitHub forks](https://img.shields.io/github/forks/Gother-GZ/SCU-SE-Course-Resources.svg?style=flat&logo=github) ![GitHub last commit](https://img.shields.io/github/last-commit/Gother-GZ/SCU-SE-Course-Resources.svg?style=flat) ![License](https://img.shields.io/badge/license-CC--BY--NC--SA%204.0-green.svg) 
 
 ---
 
@@ -30,92 +30,98 @@
 
 **4. 关于开源精神与共建：**这是一个**完全非营利、永久免费的开源项目**。我们没有任何商业化诉求，唯一的动力源于对技术分享的热爱🔥。如果您有高质量的课程资料，并且**您拥有这些资料的完整版权**，诚挚邀请您加入我们。如果这个仓库曾为您节省了 `O(n)` 的检索时间，或是帮您规避了学习路径上的 `Exception`，希望您能点亮右上角的 **Star 🌟**，这将是我们开源工作的**最大认可**和持续维护的**最大动力**！
 
+## 🧭 导航索引：结构化的“知识拓扑”
 
+为了确保方便资源检索，本项目谢绝千篇一律的堆砌。仓库整体架构遵循 **“必修按时间轴演进，选修按技术栈分层”** 的逻辑。**必修** 📦按照本科四年的**时间线**组织，精确到学期。**选修** 🎨按照学院划分的**专业方向**组织。以下是本仓库目前的**目录树结构**概览：
 
-
-
-
-
-
-
-## 🌟 核心特色 (Highlights)
-
-本项目谢绝千篇一律的堆砌，我们针对软件学院的培养方案进行了特色的架构设计：
-
--   **🎯 选修课"技能树"分类 (Track-Based Structure)**
-    不同于传统的按学期分类，我们将选修课程按照 **专业方向 (Specialization Tracks)** 进行了重组：
-    -   `人工智能与数据分析`：数据挖掘、机器学习...
-    -   `移动和Web应用开发`：前端技术、移动应用...
-    -   `数字媒体及图像处理`：图形学、游戏设计...
-    -   `软件工程通用`：项目管理、测试...
-    
-    这样的设计旨在让你更清晰地依照自己的 **职业规划 (Career Path)** 查找资料，而非仅仅是为了应付考试。
-
--   **🛠️ 强调工程实战**
-    我们深知 SEER 们的痛点在于大作业和项目。因此，本仓库特别标注并整理了各科目的 **Project** 资源，提供从需求分析 -> 概要设计 -> 编码实现 -> 测试文档的全流程参考。
-
-## 🗂 目录导航 (Architecture)
-
-本仓库的文件组织逻辑如下，清晰明了，方便索引：
-
-```text
+```
 SCU-SE-Course-Resources/
-├── 📂 必修 (Compulsory)          # 主线任务：打好基础，通关必修
-│   ├── 01_大一上_Year1_Sem1      # 启程：高等数学、导论...
-│   ├── 02_大一下_Year1_Sem2      # 探索：离散数学、C语言...
-│   ├── 03_大二上_Year2_Sem1      # 进阶：数据结构、Java...
-│   └── 04_大二下_Year2_Sem2      # 核心：操作系统、数据库...
+├── 📦 必修 (Compulsory)
+│   ├── 01_大一上_Year1_Sem1
+│   │   ├── 微积分（Ⅰ）-1
+│   │   └── 思想道德与法治
+│   ├── 02_大一下_Year1_Sem2
+│   │   ├── 微积分（Ⅰ）-2
+│   │   └── 线性代数（理工）
+│   ├── 03_大二上_Year2_Sem1
+│   │   ├── 操作系统
+│   │   │   └── Gother_2024-Fall_97  <-- (示例：贡献者归档)
+│   │   ├── 数据结构与算法
+│   │   │   └── Gother_2024-Fall_99
+│   │   ├── 概率统计（理工）
+│   │   ├── 离散数学
+│   │   │   └── Gother_2024-Fall_98
+│   │   ├── 计算机组成和体系结构
+│   │   │   └── Gother_2024-Fall_91
+│   │   └── 马克思主义基本原理
+│   └── 04_大二下_Year2_Sem2
 │
-└── 📂 选修 (Elective)            # 支线任务：点亮技能树
-    ├── 🤖 人工智能与数据分析方向   # AI Track
-    ├── 🎨 数字媒体及图像处理方向   # Media Track
-    ├── 📱 移动和Web应用开发方向    # Web/Mobile Track
-    └── ⚙️ 软件工程通用方向         # General SE Track
+└── 🎨 选修 (Elective)
+    ├── 🧠 人工智能与数据分析方向
+    │   ├── 人工智能导论
+    │   ├── 数值计算
+    │   ├── 数据挖掘技术概论
+    │   ├── 机器学习
+    │   ├── 深度学习
+    │   ├── 神经建模与数据分析
+    │   └── 运筹学
+    ├── 🎬 数字媒体及图像处理方向
+    ├── 📱 移动和Web应用开发方向
+    └── 🛠️ 软件工程通用方向
+        ├── 团队激励与沟通
+        ├── 系统级编程
+        ├── 职业生涯规划
+        ├── 软件工程研究方法
+        ├── 软件工程社会和职业问题
+        ├── 软件开发环境与工具
+        └── 逻辑思维训练
 ```
 
-> **Tip**: 善用 `Ctrl + F` (Windows) 或 `Cmd + F` (Mac) 在页面搜索你的课程名称。
+> **💡 检索技巧：** 目录树较为庞大，建议直接使用快捷键 **`Ctrl + F`** (Windows) 或 **`Cmd + F`** (Mac)，输入你的目标课程名称（如“系统级编程”），即可在页面中实现**快速定位**。
 
-## 🚀 快速开始 (Usage)
+## 📖 接入指南：从部署到实践
 
-我们推荐使用 Git 进行版本管理，这也是软件工程师的基本素养：
+本仓库不仅仅是一个资料网盘，更是一套经过整理的知识体系。为了让你能最大化地利用这些资源，我们建议按以下方式进行使用：
 
-1.  **Clone 本项目**
-    ```bash
-    git clone https://github.com/YourUsername/SCU-SE-Course-Resources.git
-    ```
-    *(如果是下载 Zip 包，请记得定期回来 Check Updates)*
+（1）获取资源：建议使用 Git
 
-2.  **查找资料**
-    进入对应目录查看。文件名通常包含了 `年份_类型_说明`，例如 `2023_LabReport_JavaSpaceWar`。
+作为软件工程专业的学生，熟练使用版本控制工具是基本素养。我们**强烈推荐**使用 Git 将本项目 Clone 到本地，而非直接下载 Zip 包。这样不仅能保留完整的文件结构，还能通过 `git pull` 随时同步上游的最新资料。
 
-3.  **Star & Watch**
-    如果你觉得本项目对你有帮助，请点击右上角的 **Star** 🌟，这不仅是对贡献者的感谢，也能让你第一时间获取更新推送。
+```cmd
+# 打开终端，执行以下命令将项目保存到本地
+git clone https://github.com/Gother-GZ/SCU-SE-Course-Resources.git
+```
 
-## 🤝 如何贡献 (Contribution)
+如果有问题，请阅读下载使用说明文档。// 待完成，编者注
 
-开源精神是软件工程的灵魂。我们非常欢迎你提交 Pull Request (PR) 或 Issue。
+（2）使用场景
 
-为了帮助大家更好地参与贡献，我们整理了详细的指南：
+我们将大学的学习过程拆解为三个核心场景，你可以根据当前的“开发进度”选择对应的接入模式：
 
--   📘 **[贡献指南 (Contributing Guide)](./assets/CONTRIBUTING.md)**: 关于 Fork、PR 流程、**文件命名规范** 及 Git 注意事项。
+- **🔍 阶段一 课前预习：**当你即将开启一门新课时，建议先浏览目录下的往年课程大纲、实验要求或期末旧题。这能帮你快速厘清课程的**考核重点**和**知识范围**，从而建立起**全局的宏观认知**，避免在后续的学习中盲目地一头扎进细节而迷失方向。
+- **🛠️ 阶段二 课中学习：**在日常的章节学习与实验过程中，本仓库中标记了 `Project` 的资料是极佳的参考对象。请重点学习前人的需求分析文档、系统架构设计以及代码实现思路，学习如何从 0 到 1 构建一个工程。这里再次强调“红线”：参考是为了学习优秀的设计模式与规范，切忌直接 Copy-Paste 源码，这不仅违反学术诚信，更会让你失去锻炼工程落地能力的宝贵机会。
+- **🚀 阶段三 期末复习：**当临近期末考试或大作业 DDL 时，请对照仓库中的知识点思维导图、习题解析进行自我检验。这相当于对自己构建的知识系统进行测试。你可以对比前人的梳理思路查缺补漏，利用往年试卷进行模拟，确保知识体系的健壮性，从而在最终的考核中实现高质量的“交付”。
 
-**简要 Checklist**:
-1.  **Commit Message**: 请语义化你的提交，例如 `feat: add OS 2024 final exam`.
-2.  **脱敏**: 务必**移除**个人隐私信息（姓名、学号）。
-3.  **版权**: 确保资料为原创或已获授权。**严禁上传任何老师的课件**，保护知识版权。
+（3）社区互动
 
-## ⚠️ 免责声明 & 协议 (Disclaimer)
+如果你觉得这个仓库对你有帮助，请点击右上角的 **Star 🌟**。这不仅是对贡献者无偿付出的感谢，也能让你第一时间获取项目的更新推送，与我们共同维护这个软院人的知识社区。
 
-1.  **学术诚信 (Academic Integrity)**: 
-    -   严禁直接抄袭（Plagiarism）本仓库中的代码或文档用于作业/考试提交。
-    -   所有的代码和文档仅供 **学习参考 (Reference Only)**。请理解代码背后的逻辑，写出属于你自己的 Implementation。
-    -   因直接抄袭产生的任何后果，本项目及贡献者概不负责。
+## 🤝 如何贡献：开源精神的“价值回馈”
 
-2.  **License**:
-    -   本仓库资料遵循 [CC-BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/) 协议。
-    -   你可以自由分享、修改，但必须署名、非商业使用，且以相同协议共享。
+开源精神是软件工程的灵魂。我们热烈欢迎你通过 **Pull Request (PR)** 或 **Issue** 参与到本项目的维护中来，无论是分享一份笔记，还是修复一个错别字。在提交之前，请务必阅读 **[📘 贡献指南 (Contributing Guide)](https://www.google.com/search?q=./CONTRIBUTING.md)** 以了解详细的目录规范与 Git 流程。
 
----
+## ⚠️ 免责声明 & 协议 
 
-**Show me the code, and let's change the world.**
-Designed with ❤️ by SCU SE Students.
+🎓 学术诚信：
+
+* 🚫 **严禁抄袭：**严禁直接复制粘贴本仓库中的代码或文档用于作业、课程设计或考试提交。
+* 📘 **学习参考：**所有的代码和文档仅供**学习与参考**。请务必理解代码背后的算法与逻辑，编写出属于你自己的 Implementation。
+* ⚖️ **责任声明**：因直接抄袭产生的任何学术不端后果，本项目及贡献者**概不负责**。
+
+📄 开源协议：
+
+* 本仓库资料遵循 **[CC BY-NC-SA 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/)** 协议。
+* 这意味着你可以 **自由分享、修改**，但必须遵守以下原则：
+    * ✍️ **署名 (Attribution)**：必须保留原作者署名。
+    * 💲 **非商业使用 (Non-Commercial)**：不得用于商业用途。
+    * 🔄 **相同方式共享 (ShareAlike)**：修改后的作品必须使用相同的协议发布。
