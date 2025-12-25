@@ -1,4 +1,4 @@
-# 🦄 SCU-SE-Space | 四川大学软件学院课程资料分享计划
+# 🦄 项目更新中……预计元旦后完成期末考试资料上传
 
 > Breaking the barrier of information, Engineering the future.
 
